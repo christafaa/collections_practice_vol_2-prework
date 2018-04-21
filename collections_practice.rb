@@ -28,9 +28,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  result = []
-
-  keys.each do |key|
+  p keys
 end
 
 def organize_schools(schools)
