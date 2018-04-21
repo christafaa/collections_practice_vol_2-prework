@@ -29,6 +29,8 @@ end
 
 def merge_data(keys, data)
   result = []
+
+  keys.each do |key|
 end
 
 def organize_schools(schools)
