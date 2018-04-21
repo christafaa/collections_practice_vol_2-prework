@@ -28,7 +28,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  
+  result = []
 end
 
 def organize_schools(schools)
