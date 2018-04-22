@@ -53,7 +53,7 @@ def organize_schools(hash)
   result = {}
 
   hash.each do |k, v|
-    
+    if result[k]
   end
   result
 end
