@@ -40,6 +40,7 @@ def merge_data(keys, data)
       end
     end
   end
+  result
 end
 
 def organize_schools(schools)
