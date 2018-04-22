@@ -54,6 +54,9 @@ def organize_schools(hash)
 
   hash.each do |k, v|
     if result[k]
+      result[k] << v
+    else
+      result[k] = [v]
   end
   result
 end
