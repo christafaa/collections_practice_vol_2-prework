@@ -53,7 +53,7 @@ def organize_schools(hash)
   result = {}
 
   hash.each do |school, location_hash|
-    city = 
+    city = location_hash[:location]
     if result[k]
       result[k] << v
     else
