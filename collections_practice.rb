@@ -36,7 +36,7 @@ def merge_data(keys, data)
       data.each do |set_hash|
         set_hash.each do |k, v|
           if name == k
-            new_hash = key_hash.merge(set_hash)
+            new_hash = key_hash.merge(set_hash[name])
   end
 end
 
