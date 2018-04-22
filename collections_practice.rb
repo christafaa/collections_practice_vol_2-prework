@@ -55,9 +55,9 @@ def organize_schools(hash)
   hash.each do |school, location_hash|
     city = location_hash[:location]
     if result[city]
-      result[city] << v
+      result[city] << school
     else
-      result[city] = [v]
+      result[city] = [school]
     end
   end
   result
