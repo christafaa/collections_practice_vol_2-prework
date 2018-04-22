@@ -46,6 +46,7 @@ end
 def find_cool(array)
   array.each do |set|
 
+  end
 end
 
 def organize_schools(schools)
