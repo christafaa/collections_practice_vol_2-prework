@@ -51,6 +51,7 @@ end
 
 def organize_schools(hash)
   result = {}
-  
+
+  hash.each do |k, v|
 
 end
