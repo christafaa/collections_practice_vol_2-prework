@@ -33,7 +33,7 @@ def merge_data(keys, data)
     key_hash.each do |k, v|
       name = v
       data.each do |set_hash|
-        set
+        set_hash.each do |k, v|
   end
 end
 
