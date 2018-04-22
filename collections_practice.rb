@@ -45,7 +45,7 @@ end
 
 def find_cool(array)
   array.each do |set|
-    
+    return set if set.values.include?("cool")
   end
 end
 
