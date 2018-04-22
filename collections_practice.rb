@@ -52,7 +52,7 @@ end
 def organize_schools(hash)
   result = {}
 
-  hash.each do |k, v|
+  hash.each do |school, |
     if result[k]
       result[k] << v
     else
