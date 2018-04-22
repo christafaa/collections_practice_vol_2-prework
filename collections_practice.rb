@@ -57,6 +57,7 @@ def organize_schools(hash)
       result[k] << v
     else
       result[k] = [v]
+    end
   end
   result
 end
